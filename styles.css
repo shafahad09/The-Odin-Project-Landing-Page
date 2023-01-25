@@ -67,6 +67,12 @@ li {
     border-radius: 5px;
 }
 
+.sec2 button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #F9FAF8;
+}
+
 .sec2 .img {
     align-self: center;
 }
@@ -78,26 +84,42 @@ li {
 
 .sec3 {
     height: 50vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .sec3 h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    text-align: center;
+    text-align: center;   
 }
 
 .sec3 .boxes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 150px;
+}
+
+.sec3 img {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-color: #3882F6;
+}
+
+.box1, .box2, .box3, .box4 {
+    max-width: 100px;
 }
 
 .sec4 {
     height: 50vh;
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
 
 .sec4 .quote {
@@ -112,4 +134,58 @@ li {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+}
+
+.sec5 {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec5 .popup {
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec5 .popup .info h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.sec5 .popup .info p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sec5 .popup .btn button{
+    padding: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid;
+    border-radius: 5px;
+}
+
+.sec5 .popup .btn button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #F9FAF8;
+}
+
+.foot {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot .text {
+    color: #F9FAF8;
 }

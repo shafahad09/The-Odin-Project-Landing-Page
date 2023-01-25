@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    /* color: white; */
+}
+
+.logo {
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 8px;
+}
+
+.sec1 .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sec1 .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    height: 50vh;
+}
+
+.sec2 .info {
+    align-self: center;
+    width: 400px;
+}
+
+.sec2 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sec2 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sec2 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.sec2 .img {
+    align-self: center;
+}
+
+.sec2 .img img{
+    height: 300px;
+    width: 600px;
+}
+
+.sec3 {
+    height: 50vh;
+}
+
+.sec3 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.sec3 .boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec4 {
+    height: 50vh;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4 .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 1000px;
+}
+
+.sec4 .name {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
